@@ -1,0 +1,45 @@
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta naưme="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+
+	
+<body>
+<div style="justify-content: center;
+display: grid;
+grid-template-columns: auto;" >
+số hang 1
+<input type="input" id="inp1"
+onchange="update_value()"
+placeholder="0"
+value= 0>
+số hạng 2
+<input type="input" id="inp2"
+onchange="update_value()"
+placeholder="0" 
+value =0>
+<p id="kq">Tổng là: </p>
+</div>
+
+<script type="text/javascript">
+	function update_value(){
+const tmp_inp1 = document.getElementById("inp1").value;
+const tmp_inp2 = document.getElementById("inp2").value;
+if (isNaN(parseInt(tmp_inp1)) || isNaN(parseInt(tmp_inp2)))
+{
+alert("Vui lòng nhập một số");
+}else{
+console.log("Vừa nhập: "+parseInt(tmp_inp1) );
+console.log("Vừa nhập: "+parseInt(tmp_inp2) );
+}
+
+const kq = document.getElementById("kq");
+var sh1 = parseInt(tmp_inp1);
+var sh2 = parseInt(tmp_inp2);
+kq.innerHTML = "Tổng là: " + (sh1+sh2);}
+</script>
+</body>
+</html>
