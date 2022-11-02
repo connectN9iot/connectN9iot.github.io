@@ -1,8 +1,8 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "https://thanhsc1-fdbf4-default-rtdb.asia-soutosystem1.firebaseddatabase.app"
+import { initializeApp } from "https://console.firebase.google.com/u/0/project/thanhsc1-fdbf4/database/thanhsc1-fdbf4-default-rtdb/data/~2F"
 //"https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
 
-import { getDatabase, ref, set, child, get } from "https://thanhsc1-fdbf4-default-rtdb.asia-soutosystem1.firebaseddatabase.app"
+import { getDatabase, ref, set, child, get } from "https://console.firebase.google.com/u/0/project/thanhsc1-fdbf4/database/thanhsc1-fdbf4-default-rtdb/data/~2F"
 //"https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
