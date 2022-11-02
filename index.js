@@ -6,9 +6,7 @@ import { getDatabase, ref, set, child, get } from "https://www.gstatic.com/fireb
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  hovanthanh
-  soctrang 
-  tbk
+  https://console.firebase.google.com/u/1/project/connectn9iot/database/connectn9iot-default-rtdb/data/~2F
   //Điền thông tin Firebase config của cá nhân vào đây
   
 };
