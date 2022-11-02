@@ -43,6 +43,9 @@ const app = initializeApp(firebaseConfig);
 // Initialize Firebase
 
 
+const send =  document.getElementById('send')
+const read =  document.getElementById('read')
+
 send.addEventListener('click',(e) =>{ 
 Sends();
 });
