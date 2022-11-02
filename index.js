@@ -53,14 +53,14 @@ Getval();
 function Sends(){
     Number = parseFloat(document.getElementById('Number').value);
 const db = getDatabase();
-  set(ref(db, 'Number/'), {
+  set(ref(db, 'number/'), {
     Value : Number
   });
 }
 
 function Getval(){
     const dbRef = ref(getDatabase());
-    get(child(dbRef, `Number` + '/Value')).then((snapshot) => {
+    get(child(dbRef, `number` + '/value')).then((snapshot) => {
       if (snapshot.exists()) {
         console.log(snapshot.val());
         document.getElementById('val').innerHTML = "Number/Value="+snapshot.val();
