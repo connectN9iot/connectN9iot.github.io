@@ -6,10 +6,10 @@ import { getDatabase, ref, set, child, get } from "https://www.gstatic.com/fireb
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  / Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+//const firebaseConfig = {
+  // Import the functions you need from the SDKs you need
+//import { initializeApp } from "firebase/app";
+//import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -26,12 +26,10 @@ const firebaseConfig = {
   measurementId: "G-BH9Y18PSM3"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+
   //Điền thông tin Firebase config của cá nhân vào đây
   
-};
+//};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
