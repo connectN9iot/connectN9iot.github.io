@@ -1,6 +1,9 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
-import { getDatabase, ref, set, child, get } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js";
+import { initializeApp } from "https://console.firebase.google.com/u/1/project/connectn9iot/database/connectn9iot-default-rtdb/data/~2F"
+//"https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
+
+import { getDatabase, ref, set, child, get } from "https://console.firebase.google.com/u/1/project/connectn9iot/database/connectn9iot-default-rtdb/data/~2F"
+//"https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
