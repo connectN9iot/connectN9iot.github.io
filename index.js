@@ -1,11 +1,11 @@
 // Import the functions you need from the SDKs you need
 //import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
-import { initializeApp } from "firebase/app";
+//import { initializeApp } from "firebase/app";
 //import { getDatabase, ref, set, child, get } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js";
-import { getAnalytics } from "firebase/analytics";
+//import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-
+import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 //const firebaseConfig = {
   // Import the functions you need from the SDKs you need
@@ -16,25 +16,32 @@ import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+// Import the functions you need from the SDKs you need
+//import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDlaXQI3wFfTKB5uRwYhJOysW6W0nbR_TQ",
-  authDomain: "thanhsc1-fdbf4.firebaseapp.com",
-  databaseURL: "https://thanhsc1-fdbf4-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "thanhsc1-fdbf4",
-  storageBucket: "thanhsc1-fdbf4.appspot.com",
-  messagingSenderId: "926912176291",
-  appId: "1:926912176291:web:79af1f9b7de1e07692df16",
-  measurementId: "G-BH9Y18PSM3"
+  apiKey: "AIzaSyD4pt30fnjFCwN_UHLLme-CJCn8qwPjChA",
+  authDomain: "bysoctrang.firebaseapp.com",
+  databaseURL: "https://bysoctrang-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "bysoctrang",
+  storageBucket: "bysoctrang.appspot.com",
+  messagingSenderId: "452399304042",
+  appId: "1:452399304042:web:80bc78d8deecc279ad6913"
 };
 
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
   //Điền thông tin Firebase config của cá nhân vào đây
   
 //};
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const database = getDatabase(app);
+
 
 send.addEventListener('click',(e) =>{ 
 Sends();
