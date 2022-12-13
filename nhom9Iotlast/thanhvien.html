@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Thành viên</title>
+	<link rel="stylesheet" type="text/css" href="trangchu.css">
+	<link rel="stylesheet" type="text/css" href="thanhvien.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://fontawesome.com/" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<section class="top">
+        <div class="container">
+            <div class="row justify-content">
+                <div class="logo"><img src="http://graphics8.nytimes.com/images/2015/03/15/sunday-review/15COUCH/15COUCH-blog480.gif"></div>
+                <div class="menu-bar">
+                    <span></span>
+                </div>
+                <div class="menu-items">
+                    <ul>
+                        <li ><a href="trangchu.html" class=""><i class="fa fa-home"></i> Trang chủ</a></li>
+                        <li ><a href="thanhvien.html" class="active"><i class="fa fa-user" aria-hidden="true"></i> Thành viên</a></li>
+                        <li ><a href="nhieucayxanh.html"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Trải nghiệm</a></li>
+                        <li ><a href="phanhoi.html" ><i class="fa fa-commenting-o" aria-hidden="true"></i> Phản hồi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section class="table">
+    	<form action="/action_page.php">
+			
+		<fieldset class="design" >
+			
+			<legend>GIỚI THIỆU NHÓM</legend><br><br>
+			<div class="in-table" align="center">
+			<b>Chọn thành viên:</b>
+			<select name="thành viên" id="drop1" onclick="get_selection()" style="width: 150px; margin-top: 20px; height: 30px;" >
+				<option value="Nguyễn Thành Luân">Nguyễn Thành Luân</option>
+				<option value="Dương Trường Thanh">Dương Trường Thanh</option>
+				<option value="Nguyễn Đức Thịnh">Nguyễn Đức Thịnh</option>
+				<option value="Nguyễn Thị Quế Trân">Nguyễn Thị Quế Trân</option>
+				<option value="Lâm Kim Thanh">Lâm Kim Thanh</option>
+				<option value="Hồ Văn Thanh">Hồ Văn Thanh</option>
+			</select>
+			<p id = "p1" style="color: blue;"></p>
+			<!--- hinh ---><br><br>
+			
+			<b>Chức vụ:</b>
+			<input type="text" name="chuc vu">
+			<br><br>
+			<b>MSSV:</b>
+			<input type="text" name="MSSV">
+			<br><br>
+			<b>Lớp:</b>
+			<input type="text" name="lớp">
+			<br><br>
+			<b>Ngành:</b>
+			<input type="text" name="ngành">
+			<br><br>
+			<h4 align="center"><input align="center" type="submit" value="Liên hệ"></h4>
+			</div>
+
+		</fieldset>
+	
+        </form>
+    </section>
+	<section class="team section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="section-title">
+					<h2 data-title="Thành viên"></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="team-items">
+					<img src="LUAN.jpg" width="300" height="400">
+					<div class="team-items-text">
+						<span>Thành viên</span>
+						<h2>Nguyễn Thành Luân</h2>
+						
+					</div>
+				</div>
+				<div class="team-items">
+					<img src="ME.jpg" width="300" height="400">
+					<div class="team-items-text">
+						<span>Nhóm trưởng</span>
+						<h2>Hồ Văn Thanh</h2>
+					</div>
+				</div><div class="team-items">
+					<img src="THINH.jpg" width="300" height="400">
+					<div class="team-items-text">
+						<span>Thành viên</span>
+						<h2>Nguyễn Đức Thịnh</h2>
+					</div>
+				</div><div class="team-items">
+					<img src="TRÂN.jpg" width="300" height="400">
+					<div class="team-items-text">
+						<span>Thành viên</span>
+						<h2>Nguyễn Thị Quế Trân</h2>
+						
+					</div>
+				</div>
+				<div class="team-items">
+					<img src="TRUONGTHANH.jpg" width="300" height="400">
+					<div class="team-items-text">
+						<span>Thành viên</span>
+						<h2>Dương Trường Thanh</h2>
+						
+					</div>
+				</div>
+				<div class="team-items">
+					<img src="KIMTHANH.jpg" width="300" height="400">
+					<div class="team-items-text">
+						<span>Thành viên</span>
+						<h2>Lâm Kim Thanh</h2>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="info section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 class="">Thông tin liên hệ</h2>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> Xuân Khánh, Ninh Kiều, Cần Thơ</p>
+                    <br>
+                    <p><i class="fa fa-info-circle" aria-hidden="true"></i> Info@example.com</p>
+                    <br>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i> +11111111113</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+	<script src="trangchu.js"></script>
+    <script>
+  AOS.init();
+</script>
+
+</body>
+</html>
